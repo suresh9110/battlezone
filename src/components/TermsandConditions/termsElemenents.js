@@ -6,13 +6,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 background: #0c0c0c;
-height: 800px;
+height: 1650px;
 @media screen and (max-width: 780px) {
-  height: 1300px;
+  height: 3200px;
 }
-
 `
-
 
 export const PrivacyConent = styled.div`
   z-index: 3;
@@ -38,9 +36,17 @@ margin: 10px 10px 0 0;
   font-size: 18px;
 }
 
-@media screen and (max-width: 480px) {
-  font-size: 28px;
+`
+
+export const HeroH3 = styled.h3`
+color: #01BF71;
+font-size: 18px;
+max-width: 100%;
+margin: 10px 10px 0 0;
+@media screen and (max-width: 768px) {
+  font-size: 16px;
 }
+
 `
 
 export const HeroH1 = styled.h1`
@@ -51,9 +57,7 @@ max-width: 100%;
   font-size: 20px;
 }
 
-@media screen and (max-width: 480px) {
-  font-size: 32px;
-}
+
 `
 
 export const HeroP = styled.p`

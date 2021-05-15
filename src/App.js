@@ -1,6 +1,6 @@
 import Raect,{useState} from 'react'
 import './App.css';
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
 import Home from './pages';
 import PrivacyPolicy from './pages/privacypolicy';
 import Terms from './pages/termscoditions'
@@ -30,8 +30,9 @@ function App() {
       <Navbar toggle={toggle}/>
       <Switch>
         <Route path="/" component={Home} exact />
-        <Route path="/privacypolicy" component={PrivacyPolicy} />
-        <Route path="/termsandconditions" component={Terms} />
+        <Route path="/privacypolicy" component={PrivacyPolicy} exact />
+        <Route path="/termsandconditions" component={Terms} exact />
+        <Redirect to="/"/>
       </Switch>
       {/* <hr className='hr'/> */}
       <Footer/>

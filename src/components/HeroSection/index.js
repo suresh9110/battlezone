@@ -15,7 +15,8 @@ import { HeroContainer,
      ArroRight,
      DownloadWrapper,
      BtnGooglePlay,
-     NavBtnLink
+     NavBtnLink,
+     Playwrapp
     } from './HeroElements'
 
 const HeroSection = () => {
@@ -47,8 +48,10 @@ const HeroSection = () => {
                            <FaDownload color="#000" className='donwloadicon'/>
                             Download
                         </NavBtnLink>
-                      <BtnGooglePlay src='../images/googleplay.png' className="btn-animated btn">
-                      </BtnGooglePlay>
+                        <Playwrapp href="https://play.google.com/store/apps/details?id=com.gamezone.play.on.gamezoneesports" target="_blank">
+                        <BtnGooglePlay src='../images/googleplay.png' className="btn-animated btn"></BtnGooglePlay>
+                       </Playwrapp>
+                
                 </DownloadWrapper>
                 <HeroBtnWrapper className="btn-animated btn">
                     <Button onMouseEnter={onHover} onMouseLeave={onHover}

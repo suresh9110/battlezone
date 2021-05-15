@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
     return (
         <PrivacyContainer id='Privacy'>
             <PrivacyConent>
-                <HeroH1>Privacy Policy</HeroH1>
+                <HeroH1>PRVACY POLICY</HeroH1>
                 <HeroP>
                   Battlezone PLT. "Battlezone" is committed to protecting your privacy. 
                 This Privacy Policy applies to data collected by battlezone through www.battlezoneesports.online 

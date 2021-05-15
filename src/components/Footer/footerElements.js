@@ -113,6 +113,20 @@ export const SocialIconLink = styled.a`
  margin-top:10px;
 `
 
+export const GamesLinks = styled.a`
+color: #fff;
+ text-decoration: none;
+ margin-bottom: 0.5rem;
+ font-size: 20px;
+ text-align: center;
+ width:100%;
+
+&:hover{
+    color: #01bf71;
+    transition: 0.3s ease-out;
+}
+`
+
 
 
 

@@ -111,16 +111,16 @@ margin-top: 20px;
 `
 
 export const BtnGooglePlay = styled.img`
- width: 20%;
- hight: 20%;
+ width: 100%;
+ hight: 100%;
  display: block;
   cursor: pointer;
 transition: all 0.2s ease-in-out;
 
-@media screen and (max-width: 768px) {
-  width: 50%;
- hight: 50%;
-}
+// @media screen and (max-width: 768px) {
+//   width: 50%;
+//  hight: 50%;
+// }
  
 `
 
@@ -145,3 +145,7 @@ display: block;
   color: #010606;
 }
 `;
+
+export const Playwrapp = styled.a`
+ width: 150px;
+`
